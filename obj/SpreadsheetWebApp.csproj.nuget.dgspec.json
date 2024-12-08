@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hallaai/proj/spreadsheetform/React/SpreadsheetWebApp/SpreadsheetWebApp.csproj": {}
+  },
+  "projects": {
+    "/home/hallaai/proj/spreadsheetform/React/SpreadsheetWebApp/SpreadsheetWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hallaai/proj/spreadsheetform/React/SpreadsheetWebApp/SpreadsheetWebApp.csproj",
+        "projectName": "SpreadsheetWebApp",
+        "projectPath": "/home/hallaai/proj/spreadsheetform/React/SpreadsheetWebApp/SpreadsheetWebApp.csproj",
+        "packagesPath": "/home/hallaai/.nuget/packages/",
+        "outputPath": "/home/hallaai/proj/spreadsheetform/React/SpreadsheetWebApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hallaai/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[5.3.3, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
