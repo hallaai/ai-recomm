@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj": {}
+    "d:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj": {}
   },
   "projects": {
-    "D:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj": {
+    "d:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj",
+        "projectUniqueName": "d:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj",
         "projectName": "SpreadsheetWebApp",
-        "projectPath": "D:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj",
+        "projectPath": "d:\\proj\\ai-recomm\\SpreadsheetWebApp.csproj",
         "packagesPath": "C:\\Users\\Liss_\\.nuget\\packages\\",
-        "outputPath": "D:\\proj\\ai-recomm\\obj\\",
+        "outputPath": "d:\\proj\\ai-recomm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

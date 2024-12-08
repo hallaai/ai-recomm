@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/SpreadsheetWebApp.props" />
+  <Import Project="..\build\SpreadsheetWebApp.props" />
 </Project>

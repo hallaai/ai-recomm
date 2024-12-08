@@ -39,6 +39,13 @@ const Selector = () => {
 
   const handleChange = (selected) => {
     setSelectedOptions(selected);
+    axios.post('/Home/ReceiveSelectedValues', selected)
+      .then(response => {
+        console.log('Selected values sent to the server');
+      })
+      .catch(error => {
+        console.error('Error sending selected values:', error);
+      });
   };
 
   return (

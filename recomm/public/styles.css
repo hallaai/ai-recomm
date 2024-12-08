@@ -1,17 +1,20 @@
 .navbar {
-  display: flex;
-  align-items: center;
-  background-color: #333;
-  padding: 10px;
-}
-.navbar img {
-  height: 40px;
-  margin-right: 20px;
-}
-.navbar h1 {
-  color: white;
-  margin: 0;
-}
+    display: flex;
+    align-items: center;
+    background-image: url('norwaysky.png');
+    background-size: cover;
+    background-position: center;
+    background-position: center 65%; 
+    padding: 10px;
+  }
+  .navbar img {
+    height: 40px;
+    margin-right: 20px;
+  }
+  .navbar h1 {
+    color: white;
+    margin: 0;
+  }
 .northern-lights {
   position: relative;
   display: inline-block;

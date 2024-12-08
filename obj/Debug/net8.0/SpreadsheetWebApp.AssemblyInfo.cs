@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpreadsheetWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b74b1fea330c1fab7a05f2e7d17b68382ba8539f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86f6e35af7a29ebc96223ca17fc5f3dc04bd0072")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpreadsheetWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpreadsheetWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
