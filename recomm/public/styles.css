@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+.navbar img {
+  height: 40px;
+  margin-right: 20px;
+}
+.navbar h1 {
+  color: white;
+  margin: 0;
+}
+.northern-lights {
+  position: relative;
+  display: inline-block;
+  color: white; /* Set the default color to white */
+}
+.northern-lights:hover {
+  animation: neon-blue-flash 1s forwards;
+}
+@keyframes neon-blue-flash {
+  0%, 100% {
+    color: white;
+    text-shadow: none;
+  }
+  50% {
+    color: #00f;
+    text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f, 0 0 50px #00f, 0 0 60px #00f, 0 0 70px #00f;
+  }
+}
