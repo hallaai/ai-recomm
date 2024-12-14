@@ -1,0 +1,25 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>Product Recommendations</h1>
+<form method="post" asp-action="Recommend">
+    @if (Model != null)
+    {
+        @foreach (var product in Model)
+        {
+            <div>
+                <input type="checkbox" name="selectedProducts" value="@product.Id" />
+                <label>@product.Name</label>
+            </div>
+        }
+    }
+    <textarea name="userComment" placeholder="Enter your comments"></textarea>
+    <button type="submit">Recommend me</button>
+</form>

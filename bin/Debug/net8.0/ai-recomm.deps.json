@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ai-recomm/1.0.0": {
+        "runtime": {
+          "ai-recomm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ai-recomm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
